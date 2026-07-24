@@ -1,12 +1,14 @@
-export async function fetchPosts(pageNum = 1) {
+export async function fetchPosts({ queryKey }) {
+  const [, pageNum] = queryKey;
   const response = await fetch(
-    `https://jsonplaceholder.typicode.com/posts?_limit=10&_page=${pageNum}`
+    `https://jsonplaceholder.typicode.com/posts?_limit=10&_page=${pageNum ?? 1}`
   );
   //throw new Error("You can't get this data")
   return response.json();
 }
 
-export async function fetchComments(postId) {
+export async function fetchComments({ queryKey }) {
+  const [, postId] = queryKey;
   const response = await fetch(
     `https://jsonplaceholder.typicode.com/comments?postId=${postId}`
   );

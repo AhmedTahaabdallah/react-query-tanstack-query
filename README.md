@@ -15,8 +15,6 @@ The goal of this repository is to explore modern server state management techniq
 - Creating Queries with `useQuery`
 - Loading & Error States
 - React Query DevTools
-
-### 🚧 Coming Soon
 - Query Keys
 - Caching
 - Stale Time & Cache Time
@@ -25,10 +23,12 @@ The goal of this repository is to explore modern server state management techniq
 - Dynamic Queries
 - Prefetching
 - Mutations
+- Pagination
+
+### 🚧 Coming Soon
 - Query Invalidation
 - Optimistic Updates
 - Infinite Queries
-- Pagination
 - Custom Query Hooks
 - Best Practices
 - Performance Optimizations
