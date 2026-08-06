@@ -4,9 +4,9 @@
 ![TanStack Query](https://img.shields.io/badge/TanStack%20Query-Latest-red)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-success)
 
-A practical repository for learning and experimenting with TanStack Query through real-world examples and reusable patterns.
+A practical repository for learning and experimenting with **TanStack Query (React Query)** through real-world examples, reusable patterns, and production-inspired scenarios.
 
-The goal of this repository is to explore modern server-state management techniques while applying scalable architecture and production-ready best practices.
+The goal of this repository is to explore modern **server-state management** in React applications while applying scalable architecture, caching strategies, and best practices.
 
 ---
 
@@ -35,9 +35,9 @@ The goal of this repository is to explore modern server-state management techniq
 - Pagination
 - Prefetching
 - Data Transformation (`select`)
-- Polling
-- Re-fetch Configuration
+- Query Re-fetch Strategies
 - Global Query Defaults
+- Polling & Auto Re-fetching
 
 ### Infinite Queries
 
@@ -47,6 +47,7 @@ The goal of this repository is to explore modern server-state management techniq
 
 ### Authentication
 
+- Authentication with React Query
 - setQueryData
 - removeQueries
 - Conditional Queries (`enabled`)
@@ -54,19 +55,22 @@ The goal of this repository is to explore modern server-state management techniq
 
 ### Mutations
 
-- Basic Mutations
+- useMutation
 - Mutation States
+- Query Invalidation
+- Updating Query Cache from Mutation Response
+- Optimistic Updates
+- Rollback on Mutation Failure
 
 ---
 
 ## 🚧 Coming Soon
 
-- Query Invalidation
-- Optimistic Updates
 - Custom Query Hooks
 - Suspense
 - Offline Support
-- Persistence
+- Query Persistence
+- Advanced Error Handling
 - Best Practices
 - Performance Optimizations
 
@@ -75,7 +79,7 @@ The goal of this repository is to explore modern server-state management techniq
 ## Tech Stack
 
 - React 19
-- TanStack Query
+- TanStack Query (React Query)
 - Axios
 - JavaScript
 
@@ -83,10 +87,16 @@ The goal of this repository is to explore modern server-state management techniq
 
 ## Project Goals
 
-- Learn TanStack Query from fundamentals to advanced topics.
+- Learn TanStack Query from fundamentals to advanced concepts.
 - Build reusable API-layer patterns.
 - Explore scalable server-state management.
-- Apply production-ready best practices.
-- Share practical examples with the developer community.
+- Apply production-ready caching and synchronization strategies.
+- Share practical examples and best practices with the developer community.
 
-More examples will be added as I continue learning.
+---
+
+## Repository Status
+
+This repository is continuously updated as I progress through my TanStack Query learning journey.
+
+Each section includes practical examples that demonstrate how the concepts can be applied in real-world React applications.
